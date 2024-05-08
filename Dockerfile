@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:bullseye
+FROM python:3.13.0a6-slim
 WORKDIR /app
 
 RUN set -eux; \
